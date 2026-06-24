@@ -1,0 +1,14 @@
+.custom-toast {
+    .toast {
+        background-color: #FFF;
+        @at-root [data-theme-version="dark"] & {
+            background-color: $dark-card;
+    }
+        .toast-body {
+			background-color: #FFF;
+			@at-root [data-theme-version="dark"] & {
+				background-color: $dark-card;
+			}
+        }
+    }
+}

@@ -1,0 +1,6 @@
+.offcanvas {
+    background-color: #FFF;
+    @at-root [data-theme-version="dark"] & {
+        background-color: $dark-card;
+    }
+}
